@@ -3,8 +3,11 @@
 
 int main()
 {
-    Road road(100);
+    Road road(20);
     Bike bike;
     bike.run(road);
+
+    Road longRoad(40);
+    bike.run(longRoad);
     return 0;
 }
